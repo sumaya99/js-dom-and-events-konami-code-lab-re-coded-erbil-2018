@@ -16,8 +16,9 @@ document.addEventListener('keydown', function(e)){
 const key = parseInt(e.which || e.detail);
 }
 if (key === code[index]){
-  index=0 ;
+  index++;
 }
+
 }
 ```
 
