@@ -17,10 +17,16 @@ const key = parseInt(e.which || e.detail);
 if (key === code[index]){
   index++;
   
-  if (cod)
+  if (index=== code.length-1){
+    alert.warn('hey stop')
+    index=0;
+  }
+}
+else{
+  index=0;
 }
 }
-
+, false;)
 }
 ```
 
