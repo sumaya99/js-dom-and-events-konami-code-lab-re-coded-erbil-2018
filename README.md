@@ -18,7 +18,7 @@ if (key === code[index]){
   index++;
   
   if (index=== code.length-1){
-    alert.warn('hey stop')
+    window.alert('hey stop')
     index=0;
   }
 }
@@ -26,7 +26,7 @@ else{
   index=0;
 }
 }
-, false;)
+, false);
 }
 ```
 
