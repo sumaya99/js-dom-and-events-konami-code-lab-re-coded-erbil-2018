@@ -14,9 +14,11 @@ function init() {
 let index = 0;
 document.addEventListener('keydown', function(e)){
 const key = parseInt(e.which || e.detail);
-}
 if (key === code[index]){
   index++;
+  
+  if (cod)
+}
 }
 
 }
